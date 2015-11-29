@@ -13,8 +13,7 @@
 
 
 
-html,
-body { direction: rtl; }
+header { direction: rtl; }
 
 .bgicon {
 	left: -50px;
