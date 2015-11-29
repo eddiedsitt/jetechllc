@@ -1,0 +1,124 @@
+file:///C:/Users/Eddie/Dropbox/themeforest-9228123-canvas-the-multipurpose-html5-template/Package-HTML/HTML/one-page/op-video-grid-2.html
+
+wants nav to be RTL
+
+side dark change to menu (hamburger)
+remove x cursor
+
+remove loader
+
+logo on right
+
+file:///C:/Users/Eddie/Dropbox/themeforest-9228123-canvas-the-multipurpose-html5-template/Package-HTML/HTML/one-page/op-revolution-fullwidth.html
+
+loves image canvas
+
+remove side arrows
+
+320x240 image slider
+
+
+insert works div
+
+
+file:///C:/Users/Eddie/Dropbox/themeforest-9228123-canvas-the-multipurpose-html5-template/Package-HTML/HTML/contact.html
+
+loves contact
+remove maps
+
+
+
+
+file:///C:/Users/Eddie/Dropbox/themeforest-9228123-canvas-the-multipurpose-html5-template/Package-HTML/HTML/about.html
+
+like the page
+
+remove my clients
+
+what clients say is testimonials
+
+
+
+
+meta theme color
+
+
+
+
+
+
+
+http://www.control4.com/solutions/entertainment
+
+#ef7620
+
+loves effects
+loves layout
+
+
+
+file:///C:/Users/Eddie/Dropbox/themeforest-9228123-canvas-the-multipurpose-html5-template/Package-HTML/HTML/carousel.html
+services
+hover over 1 2 image
+
+
+
+file:///C:/Users/Eddie/Dropbox/themeforest-9228123-canvas-the-multipurpose-html5-template/Package-HTML/HTML/pricing.html
+
+he likes it
+
+
+
+
+
+file:///C:/Users/Eddie/Dropbox/themeforest-9228123-canvas-the-multipurpose-html5-template/Package-HTML/HTML/footer-4.html
+
+likes shortened footer
+
+try lighter big footer background on smaller footer
+
+
+
+file:///C:/Users/Eddie/Dropbox/themeforest-9228123-canvas-the-multipurpose-html5-template/Package-HTML/HTML/footer-6.html
+
+something like that
+
+
+
+
+
+file:///C:/Users/Eddie/Dropbox/themeforest-9228123-canvas-the-multipurpose-html5-template/Package-HTML/HTML/portfolio-1-alt.html
+
+likes the alt
+
+likes the multiple images per entry
+
+check mark lists used to list technologies used in porject
+
+no button
+
+
+
+
+file:///C:/Users/Eddie/Dropbox/themeforest-9228123-canvas-the-multipurpose-html5-template/Package-HTML/HTML/process-steps.html
+
+
+process to implement new technologies in a home
+
+
+
+
+
+Page layout:
+Home
+About/Process
+Services/Brands
+Portfolio
+Contact us
+
+
+
+
+
+
+
