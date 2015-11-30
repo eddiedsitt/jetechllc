@@ -67,10 +67,16 @@
 #logo img,
 #primary-menu:not(.style-2),
 #primary-menu:not(.style-2) > ul {
-	height: 70px;
 	-webkit-transition: height .4s ease, opacity .3s ease;
 	-o-transition: height .4s ease, opacity .3s ease;
 	transition: height .4s ease, opacity .3s ease;
+    height: 70px;
+}
+
+#logo img {
+	height: 125px;
+	margin-top: -30px;
+	margin-bottom: -30px;
 }
 
 
