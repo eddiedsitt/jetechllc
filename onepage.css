@@ -39,6 +39,7 @@
 #slider + #header.transparent-header {
 	top: -70px;
 	margin-bottom: -70px;
+    margin-top: 70px;
 }
 
 #header.full-header #logo { border-right: 0; }

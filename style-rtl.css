@@ -169,7 +169,7 @@ header { direction: rtl; }
 	border-right: 0;
 }
 
-#header.transparent-header.full-header #logo { border-left-color: rgba(0,0,0,0.1); border-right-color: transparent; }
+#header.transparent-header.full-header #logo { border-left-color: transparent; border-right-color: transparent; }
 
 
 /* ----------------------------------------------------------------
@@ -210,7 +210,7 @@ header { direction: rtl; }
 	border-right: 0;
 }
 
-#header.transparent-header.full-header #primary-menu > ul { border-left-color: rgba(0,0,0,0.1); border-right-color: transparent; }
+#header.transparent-header.full-header #primary-menu > ul { border-left-color: transparent; border-right-color: transparent; }
 
 #primary-menu > ul { float: right; }
 
