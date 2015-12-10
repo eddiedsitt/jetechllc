@@ -39,7 +39,15 @@
 #slider + #header.transparent-header {
 	top: -70px;
 	margin-bottom: -70px;
+}
+
+@media (min-width: 991px){
+    #header.transparent-header + #slider,
+#header.transparent-header + #page-title.page-title-parallax,
+#header.transparent-header + #google-map,
+#slider + #header.transparent-header {
     margin-top: 70px;
+}
 }
 
 #header.full-header #logo { border-right: 0; }

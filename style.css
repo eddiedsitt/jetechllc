@@ -3027,6 +3027,7 @@ body.side-panel-open:not(.device-xxs):not(.device-xs):not(.device-sm) .body-over
 	-webkit-transition: all .3s linear;
 	-o-transition: all .3s linear;
 	transition: all .3s linear;
+    display: none;
 }
 
 #slider:hover #slide-number { opacity: 1; }
