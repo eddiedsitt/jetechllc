@@ -592,7 +592,7 @@ textarea.border-form-control {
 
 
 .slider-caption h2 {
-	font-size: 78px;
+	font-size: 58px;
 	letter-spacing: 3px;
 	text-transform: lowercase;
 	margin-bottom: 50px;
@@ -601,7 +601,7 @@ textarea.border-form-control {
 .slider-caption p {
 	font-weight: 300;
 	text-transform: lowercase;
-	font-size: 26px;
+	font-size: 18px;
 	line-height: 1.8;
 	max-width: 600px;
 	margin-left: auto;
