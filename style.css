@@ -1043,7 +1043,7 @@ body.stretched #header.full-header .container {
 }
 
 #primary-menu > ul > li:hover a,
-#primary-menu > ul > li.current a { color: #1ABC9C; }
+#primary-menu > ul > li.current a { color: #006ea1; }
 
 #primary-menu > ul > li.sub-menu > a > div { }
 
@@ -12928,3 +12928,20 @@ body:not(.no-transition) #wrapper,
 	padding:0!important
 }
 
+.dark-grey {
+    background-color: #373737;
+}
+
+.checkered.left .background-image {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+}
+
+.checkered.right .background-image {
+    top: 0;
+    right: 50%;
+    bottom: 0;
+    left: 0;
+}
