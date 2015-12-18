@@ -1,0 +1,650 @@
+/*-----------------------------------------------------------------------------------
+
+	Theme Name: Canvas
+	Theme URI: http://themes.semicolonweb.com/html/canvas
+	Description: The Multi-Purpose Template
+	Author: SemiColonWeb
+	Author URI: http://themeforest.net/user/semicolonweb
+	Version: 2.5
+
+	-- RTL CSS --
+
+-----------------------------------------------------------------------------------*/
+
+
+
+header { direction: rtl; }
+
+.bgicon {
+	left: -50px;
+	right: auto;
+}
+
+.vertical-middle {
+	right: 0;
+	left: auto;
+}
+
+/* ----------------------------------------------------------------
+	Columns & Grids
+-----------------------------------------------------------------*/
+
+.postcontent,
+.sidebar,
+header.col_full,
+header.col_half,
+header.col_one_third,
+header.col_two_third,
+header.col_three_fourth,
+header.col_one_fourth,
+header.col_one_fifth,
+header.col_two_fifth,
+header.col_three_fifth,
+header.col_four_fifth,
+header.col_one_sixth,
+header.col_five_sixth {
+	margin-left: 4%;
+	margin-right: 0;
+	float: right;
+}
+
+.postcontent,
+.sidebar {
+	margin-left: 40px;
+	margin-right: 0;
+}
+
+header.col_full { margin-left: 0; }
+
+.postcontentheader.col_last,
+.sidebarheader.col_last { float: left; }
+
+.col_last {
+	margin-left: 0 !important;
+	clear: left;
+}
+
+
+
+/* ----------------------------------------------------------------
+	Flex Slider
+-----------------------------------------------------------------*/
+
+.flex-control-nav {
+	left: 10px;
+	right: auto;
+}
+
+.flex-control-nav li { float: right; }
+
+.flex-viewport { direction: ltr; }
+
+/* ----------------------------------------------------------------
+	Top Links
+-----------------------------------------------------------------*/
+
+
+.top-links { float: right; }
+
+.top-links ul li {
+	float: right;
+	border-left: 0;
+	border-right: 1px solid #EEE;
+}
+
+.top-links ul li:first-child,
+.top-links ul ul li { border-right: 0 !important; border-left: 0; }
+
+.top-links li i.icon-angle-down { margin: 0 2px 0 0 !important; }
+
+.top-links li i:first-child { margin-left: 2px; margin-right: 0; }
+
+.top-links ul ul,
+.top-links ul div.top-link-section {
+	right: 0;
+	left: auto;
+	box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.2);
+}
+
+.top-links ul ul li {
+	border-right: 1px solid #EEE;
+	border-left: 0;
+}
+
+.top-links ul ul li:first-child {
+	border-right: 1px solid #EEE;
+	border-left: 0;
+}
+
+.top-links ul ul img {
+	margin-left: 4px;
+	margin-right: 0;
+}
+
+
+.top-links ul div.top-link-section {
+	right: 0;
+	left: auto;
+}
+
+.fright .top-links ul div.top-link-section,
+.top-links.fright ul div.top-link-section {
+	right: auto;
+	left: 0;
+}
+
+
+/* ----------------------------------------------------------------
+	Top Social
+-----------------------------------------------------------------*/
+
+#top-social li,
+#top-social li a,
+#top-social li .ts-icon,
+#top-social li .ts-text { float: right; }
+
+#top-social li { border-right: 1px solid #EEE; border-left: 0; }
+
+#top-social li:first-child { border-right: 0 !important; border-left: 0; }
+
+/* ----------------------------------------------------------------
+	Logo
+-----------------------------------------------------------------*/
+
+
+#logo {
+	float: right;
+	margin-left: 40px;
+	margin-right: 0;
+}
+
+#header.full-header #logo {
+	padding-left: 30px;
+	padding-right: 0;
+	margin-left: 30px;
+	margin-right: 0;
+	border-left: 1px solid #EEE;
+	border-right: 0;
+}
+
+#header.transparent-header.full-header #logo { border-left-color: transparent; border-right-color: transparent; }
+
+
+/* ----------------------------------------------------------------
+	Header Right Area
+-----------------------------------------------------------------*/
+
+
+.header-extras { float: left; }
+
+.header-extras li {
+	float: right;
+	margin-right: 20px;
+	margin-left: 0;
+}
+
+.header-extras li:first-child { margin-right: 0; }
+
+.header-extras li .he-text {
+	float: right;
+	padding-right: 10px;
+	padding-left: 0;
+}
+
+/* ----------------------------------------------------------------
+	Primary Menu
+-----------------------------------------------------------------*/
+
+
+#primary-menu { float: left; }
+
+#header.full-header #primary-menu > ul {
+	float: right;
+	padding-left: 15px;
+	padding-right: 0;
+	margin-left: 15px;
+	margin-right: 0;
+	border-left: 1px solid #EEE;
+	border-right: 0;
+}
+
+#header.transparent-header.full-header #primary-menu > ul { border-left-color: transparent; border-right-color: transparent; }
+
+#primary-menu > ul { float: right; }
+
+#primary-menu ul li {
+	float: right;
+	margin-right: 2px;
+	margin-left: 0;
+}
+
+#primary-menu ul li i {
+	margin-left: 6px;
+	margin-right: 0;
+}
+
+#primary-menu ul ul,
+#primary-menu ul li .mega-menu-content {
+	box-shadow: 0px 11px 42px 13px rgba(0, 0, 0, 0.05);
+	right: 0;
+	left: auto;
+}
+
+#primary-menu ul ul ul {
+	right: 218px;
+	left: auto;
+}
+
+#primary-menu ul ul.menu-pos-invert,
+#primary-menu ul li .mega-menu-content.menu-pos-invert {
+	right: auto;
+	left: 0;
+}
+
+#primary-menu ul ul ul.menu-pos-invert { left: 218px; right: auto; }
+
+#primary-menu ul ul li:hover > a {
+	padding-right: 18px;
+	padding-left: 0;
+}
+
+#primary-menu ul ul > li.sub-menu > a,
+#primary-menu ul ul > li.sub-menu:hover > a {
+	background-image: url("images/icons/submenu-rtl.png");
+	background-position: left center;
+}
+
+
+
+/* ----------------------------------------------------------------
+	Mega Menu
+-----------------------------------------------------------------*/
+
+
+#primary-menu ul li .mega-menu-content > ul { float: right; }
+
+#primary-menu ul li .mega-menu-content ul:not(.megamenu-dropdown) {
+	right: 0;
+	left: auto;
+}
+
+#primary-menu ul li .mega-menu-contentheader.col-2 > ul,
+#primary-menu ul li .mega-menu-contentheader.col-3 > ul,
+#primary-menu ul li .mega-menu-contentheader.col-4 > ul,
+#primary-menu ul li .mega-menu-contentheader.col-5 > ul {
+	border-right: 1px solid #F2F2F2;
+	border-left: 0;
+}
+
+#primary-menu ul li .mega-menu-content > ul:first-child { border-right: 0; border-left: 0; }
+
+#primary-menu ul li .mega-menu-content.style-2 ul a {
+	padding-right: 5px;
+	padding-left: 0;
+}
+
+#primary-menu ul li .mega-menu-content.style-2 ul a:hover { padding-right: 12px; padding-left: 0; }
+
+
+/* Primary Menu - Style 2
+-----------------------------------------------------------------*/
+
+#primary-menu.style-2 > div > ul { float: right; }
+
+body:not(.device-sm):not(.device-xs):not(.device-xxs) #primary-menu.style-2.center > ul,
+body:not(.device-sm):not(.device-xs):not(.device-xxs) #primary-menu.style-2.center > div { text-align: right; }
+
+/* Primary Menu - Style 5
+-----------------------------------------------------------------*/
+
+#primary-menu.style-5 > ul {
+	padding-left: 10px;
+	padding-right: 0;
+	margin-left: 5px;
+	margin-right: 0;
+	border-left: 1px solid #EEE;
+	border-right: 0;
+}
+
+#primary-menu.style-5 > ul > li { margin-right: 15px; padding-left: 0; }
+
+#primary-menu.style-5 > ul > li:first-child { margin-right: 0; margin-left: 0; }
+
+
+/* Primary Menu - Style 6
+-----------------------------------------------------------------*/
+
+#primary-menu.style-6 > ul > li > a:after,
+#primary-menu.style-6 > ul > li.current > a:after {
+	right: 0;
+	left: auto;
+}
+
+/* Primary Menu - Sub Title
+-----------------------------------------------------------------*/
+
+#primary-menu.sub-title > ul > li,
+#primary-menu.sub-title.style-2 > div > ul > li {
+	background: url("images/icons/menu-divider.png") no-repeat left center;
+	margin-right: 1px;
+	margin-left: 0;
+}
+
+#primary-menu.sub-title ul li:first-child {
+	padding-right: 0;
+	margin-right: 0;
+}
+
+
+/* Primary Menu - Style 2 with Sub Title
+-----------------------------------------------------------------*/
+
+#primary-menu.sub-title.style-2 > div > ul > li { background-position: right center; }
+
+#primary-menu.sub-title.style-2 > div #top-search,
+#primary-menu.sub-title.style-2 > div #top-cart,
+#primary-menu.sub-title.style-2 > div #side-panel-trigger { float: left; }
+
+/* Primary Menu - Overlay Menu
+-----------------------------------------------------------------*/
+
+
+@media (min-width: 992px) {
+
+.overlay-menu:not(.top-search-open) #primary-menu-trigger {
+	right: auto;
+	left: 75px;
+}
+
+.overlay-menu:not(.top-search-open) .full-header #primary-menu-trigger { left: 90px; right: auto; }
+
+.overlay-menu #primary-menu > #overlay-menu-close {
+	right: auto;
+	left: 25px;
+}
+
+.overlay-menu #primary-menu > ul {
+	right: 0;
+	left: auto;
+}
+
+}
+
+
+/* ----------------------------------------------------------------
+	Top Search
+-----------------------------------------------------------------*/
+
+
+#top-search,
+#top-cart,
+#side-panel-trigger {
+	float: left;
+	margin: 40px 15px 40px 0;
+}
+
+#top-search a i {
+	right: 0;
+	left: auto;
+}
+
+#top-search form {
+	right: 0;
+	left: auto;
+}
+
+#top-search form input { padding: 10px 0 10px 80px; }
+
+body:not(.device-sm):not(.device-xs):not(.device-xxs) #header.full-header #top-search form input { padding-right: 40px; padding-left: 0; }
+
+body:not(.device-sm):not(.device-xs):not(.device-xxs) .container-fullwidth #top-search form input { padding-right: 60px; padding-left: 0; }
+
+
+/* ----------------------------------------------------------------
+	Top Cart
+-----------------------------------------------------------------*/
+
+
+#top-cart { margin-left: 0; }
+
+#top-cart > a > span {
+	right: auto;
+	left: -14px;
+}
+
+#top-cart .top-cart-content {
+	box-shadow: 0px 10px 50px 20px rgba(0, 0, 0, 0.05);
+	left: -15px;
+	right: auto;
+}
+
+.top-cart-item-image {
+	float: right;
+	margin-left: 15px;
+	margin-right: 0;
+}
+
+.top-cart-item-desc a { text-align: right !important; }
+
+.top-cart-item-desc span.top-cart-item-quantity {
+	left: 0;
+	right: auto;
+}
+
+/* ----------------------------------------------------------------
+	Sticky Header
+-----------------------------------------------------------------*/
+
+#header.sticky-header #header-wrap {
+	right: 0;
+	left: auto;
+}
+
+
+/* Primary Menu - Style 5
+-----------------------------------------------------------------*/
+
+#header.sticky-header:not(.static-sticky) #primary-menu.style-5 > ul > li { margin-right: 2px; margin-left: 0; }
+
+#header.sticky-header:not(.static-sticky) #primary-menu.style-5 > ul > li:first-child { margin-right: 0; }
+
+#header.sticky-header:not(.static-sticky) #primary-menu.style-5 > ul > li > a i { margin: 0 0 0 5px; }
+
+/* Primary Menu - Sub Title
+-----------------------------------------------------------------*/
+
+#header.sticky-header:not(.static-sticky) #primary-menu.sub-title > ul > li,
+#header.sticky-header:not(.static-sticky) #primary-menu.sub-title.style-2 > div > ul > li {
+	margin-right: 2px;
+	margin-left: 0;
+}
+
+#header.sticky-header:not(.static-sticky) #primary-menu.sub-title > ul > li:first-child,
+#header.sticky-header:not(.static-sticky) #primary-menu.sub-title.style-2 > div > ul > li:first-child { margin-right: 0; }
+
+/* ----------------------------------------------------------------
+	Page Menu
+-----------------------------------------------------------------*/
+
+#page-menu.sticky-page-menu #page-menu-wrap {
+	right: 0;
+	left: auto;
+}
+
+#page-submenu-trigger {
+	right: auto;
+	left: 15px;
+}
+
+#page-menu .menu-title { float: right; }
+
+#page-menu nav { float: left; }
+
+#page-menu nav li { float: right; }
+
+
+/* Page Menu - Dots Style
+-----------------------------------------------------------------*/
+
+#page-menu.dots-menu,
+#page-menu.dots-menu #page-menu-wrap {
+	right: auto;
+	left: 20px;
+}
+
+#page-menu.dots-menu nav li .dots-menu-caption {
+	left: 25px;
+	right: auto;
+}
+
+#page-menu.dots-menu nav li .dots-menu-caption:after {
+	right: auto;
+	left: -5px;
+	border-right: 6px solid #1ABC9C;
+	border-left: 0;
+}
+
+#page-menu.dots-menu nav li a:hover + .dots-menu-caption {
+	left: 30px;
+	right: auto;
+}
+
+
+/* ----------------------------------------------------------------
+	One Page
+-----------------------------------------------------------------*/
+
+.one-page-arrow {
+	right: 50%;
+	left: auto;
+	margin-right: -16px;
+	margin-left: 0;
+}
+
+
+/* ----------------------------------------------------------------
+	Side Header
+-----------------------------------------------------------------*/
+
+@media (min-width: 992px) {
+
+
+	.side-header #header {
+		left: 0;
+		right: auto;
+		border-left: 1px solid #EEE;
+		border-right: 0;
+	}
+
+	.side-header #header-wrap {
+		padding-left: 40px;
+		padding-right: 0;
+	}
+
+	.side-header #primary-menu ul ul {
+		right: 0;
+		left: auto;
+		padding-left: 0;
+		padding-right: 12px;
+	}
+
+	.side-header #primary-menu ul ul ul {
+		right: 0;
+		left: auto;
+	}
+
+	.side-header #primary-menu ul ul.menu-pos-invert {
+		right: 0;
+		left: auto;
+	}
+
+	.side-header #primary-menu ul ul ul.menu-pos-invert { left: auto; }
+
+	.side-header #primary-menu ul > li.sub-menu > a:after {
+		left: 0;
+		right: auto;
+	}
+
+}
+
+/* ----------------------------------------------------------------
+	Side Push Panel
+-----------------------------------------------------------------*/
+
+#side-panel {
+	left: -300px;
+	right: auto;
+}
+
+body.side-panel-left #side-panel {
+	right: -300px;
+	left: auto;
+}
+
+body.side-push-panel.stretched #wrapper,
+body.side-push-panel.stretched #header.sticky-header .container {
+	left: 0;
+	right: auto;
+}
+
+body.side-panel-left.side-push-panel.stretched #wrapper,
+body.side-panel-left.side-push-panel.stretched #header.sticky-header .container {
+	left: 0;
+	right: auto;
+}
+
+#side-panel .side-panel-wrap {
+	right: 0;
+	left: auto;
+	padding: 50px 40px 50px 70px;
+}
+
+body.side-panel-open #side-panel {
+	left: 0;
+	right: auto;
+}
+
+body.side-panel-left.side-panel-open #side-panel {
+	right: 0;
+	left: auto;
+}
+
+body.side-push-panel.side-panel-open.stretched #wrapper,
+body.side-push-panel.side-panel-open.stretched #header.sticky-header .container {
+	left: 300px;
+	right: auto;
+}
+
+body.side-panel-left.side-push-panel.side-panel-open.stretched #wrapper,
+body.side-panel-left.side-push-panel.side-panel-open.stretched #header.sticky-header .container {
+	right: 300px;
+	left: auto;
+}
+
+#side-panel-trigger {
+	margin-left: 5px;
+	margin-right: 0;
+}
+
+#side-panel,
+body.side-push-panel.stretched #wrapper,
+body.side-push-panel.stretched #header .container {
+	-webkit-transition: left .4s ease;
+	-o-transition: left .4s ease;
+	transition: left .4s ease;
+}
+
+body.side-panel-left #side-panel,
+body.side-panel-left.side-push-panel.stretched #wrapper,
+body.side-panel-left.side-push-panel.stretched #header .container {
+	-webkit-transition: right .4s ease;
+	-o-transition: right .4s ease;
+	transition: right .4s ease;
+}
+
+.body-overlay {
+	right: 0;
+	left: auto;
+}
