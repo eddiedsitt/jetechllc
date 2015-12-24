@@ -229,7 +229,7 @@
 
 
 
-            <!-- Copyrights
+             <!-- Copyrights
             ============================================= -->
             <div id="copyrights">
 
@@ -237,7 +237,7 @@
 
                     <div class="center">
                         
-                        Copyrights &copy; 2015 All Rights Reserved by JE Technology LLC.
+                        Copyrights &copy; <span id="currentYear">2015</span> All Rights Reserved by JE Technology LLC.
                     </div>
 
 
@@ -248,15 +248,22 @@
 
         </footer>
         <!-- #footer end -->
-	</div><!-- #wrapper end -->
 
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="icon-angle-up"></div>
+    </div>
+    <!-- #wrapper end 'images/footer-bg.jpg'-->
 
-	<!-- Footer Scripts
-	============================================= -->
-	<script type="text/javascript" src="js/functions.js"></script>
+    <!-- Go To Top
+    ============================================= -->
+    <div id="gotoTop" class="icon-angle-up"></div>
+
+    <!-- Footer Scripts
+    ============================================= -->
+    <script type="text/javascript" src="js/functions.js"></script>
+    <script>
+            $(window).load(function(){
+                $("#currentYear").html(new Date().getFullYear());
+            });
+        </script>
 
 </body>
 </html>
