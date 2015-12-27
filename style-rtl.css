@@ -2680,37 +2680,37 @@ ul.tab-nav li a i {
 
 /* Testimonials - Item
 -----------------------------------------------------------------*/
-
+/*
 .testi-image {
 	float: right;
 	margin-left: 15px;
 	margin-right: 0;
 }
 
-
+*/
 /* Testimonials - Full Width
 -----------------------------------------------------------------*/
-
+/*
 .testimonial-full .testi-meta span { padding-left: 0; }
 
-
+*/
 /* Testimonial - Pagination
 -----------------------------------------------------------------*/
-
+/*
 .testimonial .flex-control-nav {
 	left: 0;
 	right: auto;
 }
-
+*/
 
 /* Testimonial - Full Scroller
 -----------------------------------------------------------------*/
-
+/*
 .testimonial.testimonial-full .flex-control-nav {
 	right: 0;
 	left: 0;
 }
-
+*/
 /* ----------------------------------------------------------------
 	Team
 -----------------------------------------------------------------*/
@@ -3159,9 +3159,9 @@ blockquote.pull-right {
 	left: 0;
 }
 
-
+/*
 .testi-content { direction: rtl; }
-
+*/
 
 /* ----------------------------------------------------------------
 	Dropcaps & Highlights
