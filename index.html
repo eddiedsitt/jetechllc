@@ -328,13 +328,120 @@
                     </div>
 
 
+                    
+
+                </div>
+                
+                
+                
+                
+                
+                
+                
+                <section id="content">
+
+            <div class="content-wrap">
+
+                <div class="container clearfix">
+
+                    <!-- Portfolio Items
+                    ============================================= -->
+                    <div id="portfolio" class="portfolio-3 clearfix">
+
+                       <article class="portfolio-item pf-media pf-icons">
+                            <div class="portfolio-desc">
+                                <h3><a href="portfolio-single.html">Residential</a></h3>
+                            </div>
+                            <div class="portfolio-image">
+                                <a href="portfolio-single.html">
+                                    <img src="http://www.jetechllc.com/images/img2.jpg" alt="Open Imagination">
+                                </a>
+                                <div class="portfolio-overlay">
+                                    <div class="portfolio-desc">
+                                    Convenience &amp; luxury become one with our home automation control systems through an elegant, intuitive interface.
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="portfolio-item pf-media pf-icons">
+                            <div class="portfolio-desc">
+                                <h3><a href="portfolio-single.html">Commercial</a></h3>
+                            </div>
+                            <div class="portfolio-image">
+                                <a href="portfolio-single.html">
+                                    <img src="http://www.jetechllc.com/images/img1.jpg" alt="Open Imagination">
+                                </a>
+                                <div class="portfolio-overlay">
+                                    <div class="portfolio-desc">
+                                        In the boardroom; excellence is expected. Our control systems set the standard for intuitive operation.</div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="portfolio-item pf-media pf-icons">
+                            <div class="portfolio-desc">
+                                <h3><a href="portfolio-single.html">Educational</a></h3>
+                            </div>
+                            <div class="portfolio-image">
+                                <a href="portfolio-single.html">
+                                    <img src="http://www.jetechllc.com/images/img3.jpg" alt="Open Imagination">
+                                </a>
+                                <div class="portfolio-overlay">
+                                    <div class="portfolio-desc">
+                                    Specializing in complete digital classroom configurations.
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                    </div><!-- #portfolio end -->
+
+                    <!-- Portfolio Script
+                    ============================================= -->
+                    <script type="text/javascript">
+
+                        jQuery(window).load(function(){
+
+                            var $container = $('#portfolio');
+
+                            $container.isotope({ transitionDuration: '0.65s' });
+
+                            $('#portfolio-filter a').click(function(){
+                                $('#portfolio-filter li').removeClass('activeFilter');
+                                $(this).parent('li').addClass('activeFilter');
+                                var selector = $(this).attr('data-filter');
+                                $container.isotope({ filter: selector });
+                                return false;
+                            });
+
+                            $('#portfolio-shuffle').click(function(){
+                                $container.isotope('updateSortData').isotope({
+                                    sortBy: 'random'
+                                });
+                            });
+
+                            $(window).resize(function() {
+                                $container.isotope('layout');
+                            });
+
+                        });
+
+                    </script><!-- Portfolio Script End -->
+
+                </div>
+
+            </div>
+                    
+                    
                     <div class="section dark nomargin">
                         <div class="divcenter center" style="max-width: 900px;">
                             <h2 class="nobottommargin t300 ls1">Like Our Services? <a href="contact.html"  data-offset="140" data-easing="easeInOutExpo" data-speed="1250" class="button button-large button-border button-reveal button-rounded button-blue notopmargin nobottommargin" style="position: relative; top: 13px;">Get In Touch</a></h2>
                         </div>
                     </div>
 
-                </div>
+                
+                
 
                 <div id="section-blog" class="page-section col-padding">
 
