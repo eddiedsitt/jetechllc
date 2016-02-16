@@ -12,8 +12,17 @@
 -----------------------------------------------------------------------------------*/
 
 
+@media (min-width: 992px){
+header { direction: rtl !important; }
+}
 
-header { direction: rtl; }
+html {
+    direction: ltr !important;
+}
+
+.one-page-menu{
+    direction: ltr !important;
+}
 
 .bgicon {
 	left: -50px;
